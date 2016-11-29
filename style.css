@@ -8,8 +8,8 @@ body{
 nav{
     width:960px;
     background-color:#a6def1;
-    height: 40px;
-    padding-top:15px;
+    height: 38px;
+    padding-top:20px;
     margin-top: 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -86,4 +86,29 @@ footer{
     background-color:lightskyblue;
     height: 55px;
     padding:20px;
+}
+nav a,footer a{
+    border:1px solid gray;
+    padding:10px;
+    margin: 4px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    
+}
+ul{
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    background-color:rgb(59, 164, 206);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding:10px;
+
+}
+footer p {
+    position: relative;
+    top:20px;
 }
