@@ -2,6 +2,7 @@ body{
     background-color: black;
 
 }
+
 #wrapper{
     background-color: rgb(33, 98, 243);
     padding:9px;
@@ -181,11 +182,13 @@ hr{
     94.5%{margin-left: -1024px;}
     100%{margin-left: 0px;}                                                                                                        %{margin-left: -10240px;}
 
-
 }
 #sliding img{
     margin-right: -7px;
     width:1028px;
     height: 200px;
+}
+#sliding:active {
+    animation-play-state: paused;
 }
 
