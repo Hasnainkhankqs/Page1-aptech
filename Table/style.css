@@ -1,0 +1,31 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:black;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+table{
+    margin:80px auto;
+    width: 800px;
+    border-spacing: 3px;
+     background-color: #0d62ab;
+
+}
+td,tr,th{
+    padding:5px;
+    background-color: #3255a2;
+    color:white;
+   
+}
+#header{
+    background-color:#6288ce;
+    color:black
+}
+#catagory>th,th{
+    background-color:#004b80;
+}
+tfoot th{
+    background-color: #452e6b;
+    color: #607D8B;
+}
