@@ -1,0 +1,154 @@
+body{
+    background-color: #0e3c5d;
+    width:100%;
+    margin: 0px;
+    padding:0px;
+}
+#wrapper{
+    width:90%;
+    background-color:#0e3c5d;
+    margin: auto;
+    box-shadow: 1px 1px 20px black
+}
+header{
+    width:100%;
+    height: 120px;
+    background-color:#0e3c5d;
+}
+
+h1{
+    text-align: center;
+    top:20px;
+    position: relative;
+    font-size: 40px;
+}
+h2{ 
+    text-align: center;
+}
+h1,h2{
+    color:white;
+}
+/*nav{
+    float: left;
+    width:100%;
+    text-align: center;
+    background-color:#516d8a;
+}
+nav ul{
+    list-style-type: none;
+    padding-left:0px;
+}
+nav ul li{
+    display: inline;
+    margin-left:10px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #6181a0;
+    color:#ccc;
+    
+}*/
+nav{
+    float: left;
+    /*text-align: center;*/
+    /*margin: auto;*/
+    width:100%;
+    background-color:#292929;
+}
+nav>ul{
+    list-style-type: none;
+        margin: auto;
+        padding:0px;
+}
+nav>ul>li>a{
+    float: left;
+    text-decoration: none;
+    color:white;
+    padding:2% 4%; 
+    transition: 0.3s;
+    
+}
+nav>ul>li>a:hover{
+    background-color:darkslateblue;
+}
+
+#slider{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    float: left;
+}
+#slider img{
+    width:100%;
+    height: 300px;
+}
+article{
+    width:100%;
+    background-color:#0e3c5d;
+    float: left;
+    margin: auto;
+}
+.sec{
+
+    float: clear;
+    padding:10px;
+    width:80%;
+    background-color:#1d335a;
+    margin:10px auto;
+    color:#ccc;
+    border-radius: 25px;
+}
+.sec img{
+    float: left;
+    border-radius: 100px;
+    width:100px;
+    height:100px;
+}
+
+footer{
+    float: left;
+    clear:both;
+    width:100%;
+    padding-top:10px;
+    min-height: 30px;
+    color:#edf;
+    background-color:333;
+    text-align: center;
+    background-color:#0e3c5d;
+    border-top: 1px dashed black;
+    line-height: 20px;
+}
+footer>ul{
+    margin-top:10px;
+    margin-left:5%;
+    list-style-type: none;
+    margin-bottom: 10px;
+    
+
+}
+footer>ul>li>a{
+    padding:10px 35px;
+    background-color:lightgray;
+    text-decoration: none;
+    transition:0.3s;
+    background-color:#1b4d71;
+    color:#ccc; 
+    
+
+    
+}
+footer>ul>li>a:hover{
+    background-color:#0c2f48;
+    color:white;
+}
+footer>ul>li{
+    margin:-2.5px;
+    display: inline;
+}
+footer p{
+    margin: auto;
+    width:500px;
+    line-height: 20px;
+    /*height: 80px;*/
+}
